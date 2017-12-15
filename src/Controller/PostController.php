@@ -20,7 +20,7 @@ class PostController extends BaseController implements ExecutableInterface
         if (!empty($message)) {
             $messageModel = new Message();
             $messageModel->setAttribute('body', $message);
-            EventManager::getInstance()->emit('onSubmit', ['messageModel' => $messageModel]);
+            EventManager::getInstance()->emit('OnSubmit', ['messageModel' => $messageModel]);
             $resultSave = $messageModel->save();
         }
 
