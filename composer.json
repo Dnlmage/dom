@@ -1,0 +1,15 @@
+{
+    "name": "vendor/engldom",
+    "authors": [
+        {
+            "name": "Lozenko Danil",
+            "email": "totolozenko@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "engldom\\": "src"
+        }
+    },
+    "require": {}
+}
